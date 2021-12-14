@@ -1,1 +1,1 @@
-web: gunicorn app:app --log-file=-
+app: python3 src/main.py --log-file=-
